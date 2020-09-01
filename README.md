@@ -66,7 +66,7 @@ node_modules/.bin/cypress open
 
 You will see the feature file listed under Integration tests 
 
-`Login.feature`
+`cypress/integratiion/Login.feature`
 
 Click the file to run the tests
 
@@ -90,7 +90,7 @@ Scenario: Register and Login to EdApp
 
 ### StepDefinitions
 
-```login.js```
+```cypress/integratiion/Login/login.js```
 
 ```bash
 Given('I open EdApp login page', () => {
