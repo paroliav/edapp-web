@@ -21,7 +21,7 @@ And('I click on {string} button', label => {
 
 When('I enter a valid email and continue', () =>{
     let random = Math.random() * Math.random() * 100000
-    let email = 'very_valid+'+Math.floor(random)+'@email.com.au'
+    let email = 'valid+'+Math.floor(random)+'@email.com.au'
     cy.get(email_field).type(email).type(enter_key)
     cy.get(password_field).should('be.visible')
 })
