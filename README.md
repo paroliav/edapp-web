@@ -50,7 +50,7 @@ Install `cosmiconfig`
 npm install cosmiconfig --save-dev
 ```
 
-## Run tests
+## Running the tests
 
 Open Cypress using
 
@@ -66,7 +66,7 @@ node_modules/.bin/cypress open
 
 You will see the feature file listed under Integration tests 
 
-`cypress/integratiion/Login.feature`
+`cypress/integration/Login.feature`
 
 Click the file to run the tests
 
